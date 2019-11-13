@@ -6,7 +6,7 @@
 #    By: ztan <ztan@student.codam.nl>                 +#+                      #
 #                                                    +#+                       #
 #    Created: 2019/11/13 13:54:36 by ztan           #+#    #+#                 #
-#    Updated: 2019/11/13 16:36:11 by ztan          ########   odam.nl          #
+#    Updated: 2019/11/13 17:11:22 by ztan          ########   odam.nl          #
 #                                                                              #
 # **************************************************************************** #
 
@@ -27,7 +27,7 @@ function Prod_name()
 {
 	BASE=`pwd`
 	P_NAME=`basename "$(dirname "$BASE")"`
-	while [ "$P_NAME" != "Desktop" ]
+	while [ "$P_NAME" != $DIRNAME ]
 	do
 		cd ..
 		P_NAME=`basename "$(dirname $(pwd))"`
