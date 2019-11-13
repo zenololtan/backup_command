@@ -10,6 +10,7 @@ step 2. paste:
 source ~/backup_command/backup_script/custom_command.sh
 
 #----------------------------------------------
+
 at the end of your ~/.bashrc or ~/.zshrc file.
 
 step 3. if your projects are located in another file "other then Desktop",
