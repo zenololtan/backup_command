@@ -6,7 +6,7 @@
 #    By: ztan <ztan@student.codam.nl>                 +#+                      #
 #                                                    +#+                       #
 #    Created: 2019/11/13 13:54:36 by ztan           #+#    #+#                 #
-#    Updated: 2019/11/13 14:20:31 by ztan          ########   odam.nl          #
+#    Updated: 2019/11/13 16:36:11 by ztan          ########   odam.nl          #
 #                                                                              #
 # **************************************************************************** #
 
@@ -15,10 +15,10 @@
 function Dircheck()
 {
 	string=`pwd`
-	if [[ $string != *"Desktop"* ]]
+	if [[ $string != *$DIRNAME* ]]
 	then
 		echo "Error not in a project directory."
-		echo "Please put your project file in desktop."
+		echo "Please put your project file in $DIRNAME or move to your project directory."
 		exit
 	fi
 }
@@ -62,6 +62,9 @@ function backup_n_return()
 	cd $DIR
 	DEST=`pwd`
 	cp -a $SORC $DEST
+	echo "Backup finished."
+	echo "Backup path:"
+	echo $DEST
 	cd $BASE
 }
 
@@ -69,7 +72,7 @@ function main()
 {
 	Dircheck
 	Prod_name
-	cd /Users/ztan/Desktop
+	cd ~/Desktop
 	Bfile_check
 	cd backup
 	Prod_check
@@ -77,5 +80,11 @@ function main()
 	backup_n_return
 }
 
+# Customize the directory name to your projects.
+# The directory name is the name of the directroy where you put your project files.
+# If your projects are in the Desktop file, your directory name will be "Desktop".
+
+# Insert your directory name here
+DIRNAME="Desktop"
 cd $1
 main
