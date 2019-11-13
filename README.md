@@ -7,7 +7,7 @@ step 1. copy/paste the backup_script directory in your user directory. your path
 step 2. paste:
 #----------------------------------------------
 
-source ~/backup_script/custom_command.sh
+source ~/backup_command/backup_script/custom_command.sh
 
 #----------------------------------------------
 at the end of your ~/.bashrc or ~/.zshrc file.
