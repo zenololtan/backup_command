@@ -10,4 +10,4 @@
 #                                                                              #
 # **************************************************************************** #
 
-alias backup='~/backup_script/backup_script.sh $(pwd)'
+alias backup='~/backup_command/backup_script/backup_script.sh $(pwd)'
