@@ -24,3 +24,5 @@ step 3. if your projects are located in another file "other then Desktop",
 be sure to modify your directory name in the backup_script.sh file!!
 
 to customize your preferences, open the "backup_script.sh" file and do your stuff..
+
+Type "backup tar" if you want to backup in a tar file.
