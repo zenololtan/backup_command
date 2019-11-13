@@ -2,7 +2,7 @@ Author: Zeno Tan
 Date: 2019 13/nov
 Contact name slack: Zeno tan
 
-step 1. copy/paste the backup_script directory in your user directory. your pathname should look like this: /users/username/backup_script
+step 1. copy/paste the backup_script directory in your user directory. your pathname should look like this: /users/username/backup_command/backup_script
 
 step 2. paste:
 #----------------------------------------------
