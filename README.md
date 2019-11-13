@@ -16,6 +16,10 @@ source ~/backup_command/backup_script/custom_command.sh
 
 at the end of your ~/.bashrc or ~/.zshrc file.
 
+or just run
+
+echo 'source ~/backup_command/backup_script/custom_command.sh' >> ~/.zshrc
+
 step 3. if your projects are located in another file "other then Desktop",
 be sure to modify your directory name in the backup_script.sh file!!
 
