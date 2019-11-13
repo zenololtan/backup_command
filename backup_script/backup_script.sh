@@ -6,7 +6,7 @@
 #    By: ztan <ztan@student.codam.nl>                 +#+                      #
 #                                                    +#+                       #
 #    Created: 2019/11/13 13:54:36 by ztan           #+#    #+#                 #
-#    Updated: 2019/11/13 17:11:22 by ztan          ########   odam.nl          #
+#    Updated: 2019/11/13 17:58:51 by ztan          ########   odam.nl          #
 #                                                                              #
 # **************************************************************************** #
 
@@ -83,6 +83,7 @@ function main()
 # Customize the directory name to your projects.
 # The directory name is the name of the directroy where you put your project files.
 # If your projects are in the Desktop file, your directory name will be "Desktop".
+# DO NOT INSERT PATH NAME, ONLY INSERT THE NAME OF THE DIRECTORY WHERE YOUR PROJECTS ARE LOCATED.
 
 # Insert your directory name here
 DIRNAME="Desktop"
